@@ -15,4 +15,4 @@ const URL = process.env.URL;
 const API_KEY = process.env.API_KEY;
 
 
-const supabase = createClient(URL, API_KEY);
+export const supabase = createClient(URL, API_KEY);
